@@ -445,13 +445,41 @@ img.weaves {
   opacity: 0;
 }
 
-.anim-fade-in-right {
-  animation-name: fadeInRight;
-  animation-duration: 1.2s;
+.anim-fade-in-right,
+.anim-fade-in-left,
+.fade-in,
+.logo-anim {
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
-  opacity: 1;
+}
+
+.anim-fade-in-right,
+.anim-fade-in-left,
+.fade-in {
+  animation-duration: 1.2s;
+}
+
+.anim-fade-in-right {
+  animation-name: fadeInRight;
+}
+.anim-fade-in-left {
+  opacity: 0;
+  animation-name: fadeInLeft;
+  animation-delay: 0.7s;
+}
+
+.fade-in {
+  opacity: 0;
+  animation-name: weaveAnimation;
+  animation-delay: 0.3s;
+}
+
+.logo-anim {
+  opacity: 0;
+  animation-name: logo-anim;
+  animation-duration: 0.6s;
+  animation-delay: 1.2s;
 }
 
 @keyframes fadeInRight {
@@ -468,16 +496,6 @@ img.weaves {
   }
 }
 
-.anim-fade-in-left {
-  opacity: 0;
-  animation-name: fadeInLeft;
-  animation-duration: 1.2s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 1;
-  animation-delay: 0.7s;
-}
-
 @keyframes fadeInLeft {
   0% {
     opacity: 0;
@@ -492,16 +510,6 @@ img.weaves {
   }
 }
 
-.fade-in {
-  opacity: 0;
-  animation-name: weaveAnimation;
-  animation-duration: 1.2s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 1;
-  animation-delay: 0.3s;
-}
-
 @keyframes weaveAnimation {
   0% {
     opacity: 0;
@@ -513,5 +521,15 @@ img.weaves {
   100% {
     opacity: 1;
     transform: translateY(0px) scale(1.1);
+  }
+}
+
+@keyframes logo-anim {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
