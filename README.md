@@ -7,4 +7,4 @@ I have made the <a href="https://www.figma.com/file/rgKpSAMRwfHLIjru9sb9nP/Untit
 
 
 
-<bold>HTML #CSS #JS #NodeJS #MailChimp #API #Figma</bold>
+<strong>HTML #CSS #JS #NodeJS #MailChimp #API #Figma</strong>
