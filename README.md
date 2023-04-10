@@ -8,4 +8,8 @@ I have made the <a href="https://www.figma.com/file/rgKpSAMRwfHLIjru9sb9nP/Untit
 <br>
 I plan to keep working on this project and integrate additional functionalities to enhance my <strong>backend development skills</strong>
 
+This project is hosted on <a href="www.render.com">Render</a>
+
+<a href="https://bluespacenewsletter.onrender.com/">Live Project.</a>
+
 <strong>HTML #CSS #JS #NodeJS #MailChimp #API #Figma</strong>
